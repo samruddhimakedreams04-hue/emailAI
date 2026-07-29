@@ -40,6 +40,17 @@ router.get('/', (req, res) => {
         send: 'POST /chat (Gemini agent with Gmail tools by default)',
         templates: 'GET /chat/templates',
       },
+      ai: {
+        summary: 'POST /ai/summary',
+        smartReply: 'POST /ai/smart-reply',
+        rewrite: 'POST /ai/rewrite',
+        professionalTone: 'POST /ai/tone/professional',
+        friendlyTone: 'POST /ai/tone/friendly',
+        grammarFix: 'POST /ai/grammar-fix',
+        translate: 'POST /ai/translate',
+        subject: 'POST /ai/subject',
+        classify: 'POST /ai/classify',
+      },
     },
   });
 });

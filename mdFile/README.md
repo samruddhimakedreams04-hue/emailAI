@@ -15,7 +15,7 @@ Build a production-ready AI Email Agent that can understand natural language, ch
 | 3 | [Gmail Tools](./phase-03-gmail-tools/) | 17 | Done | Done |
 | 4 | [Gemini Integration](./phase-04-gemini-integration/) | 5 | Done | Done |
 | 5 | [AI Tool Calling](./phase-05-ai-tool-calling/) | 9 | Done | Done |
-| 6 | [AI Email Features](./phase-06-ai-email-features/) | 9 | Not Started | Done |
+| 6 | [AI Email Features](./phase-06-ai-email-features/) | 9 | Done | Done |
 | 7 | [Smart Analysis](./phase-07-smart-analysis/) | 7 | Not Started | Done |
 | 8 | [Multi-Step Agent](./phase-08-multi-step-agent/) | 3 | Not Started | Done |
 | 9 | [Memory](./phase-09-memory/) | 5 | Not Started | Done |
@@ -27,6 +27,21 @@ Build a production-ready AI Email Agent that can understand natural language, ch
 | 15 | [Deployment](./phase-15-deployment/) | 5 | Not Started | Done |
 
 **Total:** 15 phases, 103 task files (+ this README)
+
+---
+
+## Design & Layout (Docs Only)
+
+UI/UX reference for the dashboard — **no code implementation**.
+
+| Folder | Files | Description |
+|--------|-------|-------------|
+| [design/](./design/) | 13 | Global design system + page layouts |
+
+- **Global:** [design-system](./design/01-design-system.md), [app layout](./design/02-app-layout.md), [sidebar](./design/03-navigation-sidebar.md), [colors & typography](./design/04-color-typography.md), [components](./design/05-components.md)
+- **Pages:** [login](./design/pages/01-login-layout.md), [dashboard](./design/pages/02-dashboard-layout.md), [chat](./design/pages/03-chat-layout.md), [email list](./design/pages/04-email-list-layout.md), [email detail](./design/pages/05-email-detail-layout.md), [accounts](./design/pages/06-accounts-layout.md), [AI history](./design/pages/07-ai-history-layout.md), [settings](./design/pages/08-settings-layout.md)
+
+See [design/README.md](./design/README.md) for the full index. Layout docs pair with [Phase 11 - Dashboard](./phase-11-dashboard/) task files.
 
 ---
 
@@ -168,4 +183,4 @@ Build a production-ready AI Email Agent that can understand natural language, ch
 
 ## Next Step
 
-**Phase 6 — AI Email Features** — implement dedicated `/ai/*` endpoints (docs ready in `phase-06-ai-email-features/`).
+**Phase 7 — Smart Analysis** — implement analysis endpoints (docs ready in `phase-07-smart-analysis/`).
